@@ -787,12 +787,12 @@ a:hover{
 }
 .maplocation .locationpin{
   text-align: center;
-  width: 10%;
+  /* width: 10%; */
   height: 48px;
 }
 .maplocation .locationpin img{
   position: relative;
-  top: -3px;
+  /* top: -3px; */
 }
 .maplocation .locationdetails{
   width: 90%;
@@ -877,7 +877,7 @@ a:hover{
 }
 
 .maplocation-wrapper .maplocation:last-child{
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 .mediasection .easyviewinfo .infosection h2{
   width: 100%;
