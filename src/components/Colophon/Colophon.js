@@ -77,8 +77,8 @@ const Colophon = () => {
         <div className='sectionRight'>
             <ul>
             <li>
-              <h4><Link to="/EssayView/125">Featured Essay</Link></h4>
-              <h3>Gali. Home Across The River</h3>
+              <h4><Link to="/EssayView/Home%20Across%20The%20River">Featured Essay</Link></h4>
+              <h3><Link to="/EssayView/Home%20Across%20The%20River">Gali. Home Across The River</Link></h3>
               <p>by Lela Jobava</p>
             </li>
           </ul>
