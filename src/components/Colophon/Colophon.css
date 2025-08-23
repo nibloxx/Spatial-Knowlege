@@ -1,0 +1,21 @@
+
+.footerinfo{
+  margin-bottom: 0.5rem !important;
+}
+.footerinfo ul{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footerinfo ul li {
+  font-size: 15px;
+}
+.pagelayouts{
+  display:  flex;
+ }
+
+ .sectionRight ul li h4 a{
+  color: #ffffff;
+  text-decoration: none;
+ }

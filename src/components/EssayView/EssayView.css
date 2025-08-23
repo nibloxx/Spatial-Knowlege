@@ -1,0 +1,30 @@
+
+.footerinfo{
+  margin-bottom: 0.5rem !important;
+}
+.footerinfo ul{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footerinfo ul li {
+  font-size: 15px;
+}
+.pagelayouts{
+  display:  flex;
+ }
+
+ /*responsive css*/
+@media (min-width: 1281px) and (max-width: 1366px) {}
+@media (min-width: 1024px) and (max-width: 1280px) {}
+@media (min-width: 768px) and (max-width: 1023px) {}
+/*mobile vertical layout*/
+@media only screen and (max-width: 767px) {
+  .pagelayouts{
+    display:  flex;
+   }
+   .App {
+    overflow: scroll;
+} 
+}

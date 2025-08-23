@@ -1,0 +1,146 @@
+.map-wrapper{
+  position: relative;
+}
+.maparea{
+  width: 100%;
+  height: 100%;
+}
+.mapwarpper{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+ .pagelayouts{
+  display:  inherit;
+ }
+ .custom-modal-layout{
+  width: 100%;
+ }
+ .middlelinks{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.08px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  text-decoration: none;
+ }
+ .gm-ui-hover-effect{
+  position: relative;
+  top: 10px;
+ }
+ .gm-ui-hover-effect {
+  opacity: 1 !important;
+  right: 12px !important;
+  top: 2px !important;
+}
+ .gm-ui-hover-effect>span {
+  background-color: #000;
+  height: 24px !important;
+  width: 23px !important;
+  background-repeat: no-repeat;
+}
+
+.custom-modal-layout .headertitle{
+  padding-right: 2rem;
+}
+.gm-style .gm-style-iw-d {
+  overflow: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-right: 0px!important;
+  background-color: #fff;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  width: 5px;
+  border-right: 0px!important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+  width: 5px;
+  border-right: 0px!important;
+}
+
+.custom-modal-layout .headertitle {
+  width: 97%;
+}
+.border-next {
+  border-top: 1px solid;
+  width: 97%;
+  float: left;
+}
+.caption-custom{
+  padding-right: 16px;
+}
+.infosectionmask{
+  margin-bottom: 0px;
+}
+.newInfoSection{
+  float: left;
+  width: 100%;
+}
+.newInfoSection h5{
+  font-size: 17px;
+  line-height:19.21px;
+  font-weight: 700;
+  margin-top: 15px;
+  color: #000000;
+  letter-spacing: -0.01em;
+}
+.newInfoSection p{
+  font-size: 17px;
+  line-height:21.1px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  color: #000000;
+  letter-spacing: -0.01em;
+}
+.subjectDes{
+  border-bottom: 1px solid #000000;
+  padding-bottom: 1rem;
+}
+.newInfoSection .otherlayout .sectionslayout {
+  width: 100%;
+  display: flex;
+  padding: 0.6rem 0;
+}
+
+.leftsection {
+  width: 40%;
+  padding-right: 5px;
+  text-align: right;
+}
+.leftsection p {
+  font-weight: 600 !important;
+  font-size: 17px !important;
+  margin-bottom: 6px;
+  font-family: 'Barlow', sans-serif !important;
+}
+
+.rightsection {
+  width: 60%;
+  text-align: left;
+}
+.rightsection p {
+  font-weight: 400 !important;
+  font-size: 17px !important;
+  margin-bottom: 6px;
+  font-family: 'Barlow', sans-serif !important;
+}
+.rightAuthor span{
+  border-bottom: 1px solid #000000;
+}
