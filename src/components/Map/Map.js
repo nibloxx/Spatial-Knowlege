@@ -545,6 +545,12 @@ const Map = () => {
             <div className='headertitle'>
                     <h5 className="modal-title" id="staticBackdropLabel">{noteTitle!='' ? noteTitle : selected.title}</h5>
                     <span className='mapslidecount'>{noteTitleindexInProject!='' ? noteTitleindexInProject : selected.paginationTop}</span>
+                    <span
+                      className='close-btn'
+                        onClick={() => setSelected(null)}
+                    >
+                      ×
+                    </span>
              </div>
             <div className="carousel-item active">
                     <div className="caption-custom d-sm-block d-md-block">
@@ -553,12 +559,12 @@ const Map = () => {
                             </p>
                         </div>
                         <div className='newInfoSection'>
-                            <div div className='infosectionsection'>
+                            {/* <div div className='infosectionsection'>
                                 <h5>Description:</h5>
                                 <p>{noteContent2.description}.</p>
                                 <h5>Subject Tags:</h5>
                                 <p className='subjectDes'>{noteContent2.subjectTags}.</p>
-                            </div>
+                            </div> */}
                             <div className='otherlayout'>
                                 <div className='sectionslayout'>
                                     <div className='leftsection'>

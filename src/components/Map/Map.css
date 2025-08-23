@@ -27,6 +27,16 @@
   color: #000000;
   text-decoration: none;
  }
+ .mapwarpper .gm-style-iw-chr {
+  display: none !important;
+}
+.custom-modal-layout .close-btn {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-left: 0.6rem;
+  display: inline-block;
+}
  .gm-ui-hover-effect{
   position: relative;
   top: 10px;
@@ -44,7 +54,7 @@
 }
 
 .custom-modal-layout .headertitle{
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
 }
 .gm-style .gm-style-iw-d {
   overflow: hidden !important;

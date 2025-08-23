@@ -1071,6 +1071,11 @@ a:hover{
   font-size: 15px;
   line-height: 16.95px;
 }
+.mapwarpper .gm-style .gm-style-iw-c{
+  max-width: 420px !important;
+  max-height: auto !important;
+  border-radius: 0px;
+}
 .gm-style .gm-style-iw-c{
   max-width: 420px !important;
   max-height: 447px !important;
@@ -1078,7 +1083,7 @@ a:hover{
 }
 .custom-modal-layout .headertitle{
   width: 100%;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0;
   margin-bottom: 0.5rem;
   border-bottom: 1px solid #000;
   display: flex;
@@ -1100,8 +1105,9 @@ a:hover{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  padding: 0.8rem 0;
 }
 .previouslinks,
 .previouslinks:hover{
