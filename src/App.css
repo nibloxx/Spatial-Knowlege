@@ -707,14 +707,14 @@ a:hover{
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   border-top: 5px solid #151515;
   margin-top: 10px;
   padding-top: 10px;
 }
 .mediasection .mediatiles .tilesimage{
-  width: 26%;
-  height: 125px;
+  /* width: 26%;
+  height: 125px; */
 }
 .mediasection .mediatiles .tilesinfo{
   width: 74%;
@@ -1046,8 +1046,8 @@ a:hover{
 }
 
 .tilesimage img{
-  width: 100%;
-  height: 100%;
+  width: 127px;
+  height: 127px;
   object-fit: cover;
   object-position: top;
 }
@@ -1198,7 +1198,7 @@ a:hover{
 @media (min-width: 1281px) and (max-width: 1366px) {}
 @media (min-width: 1024px) and (max-width: 1280px) {
   .mediasection .mediatiles .tilesimage{
-    width: 28%;
+    /* width: 28%; */
   }
   .mediasection .mediatiles .tilesinfo{
     width: 72%;
@@ -1244,7 +1244,7 @@ a:hover{
     width: 100%;
   }
   .mediasection .mediatiles .tilesimage{
-    width: 35%;
+    /* width: 35%; */
   }
   .mediasection .mediatiles .tilesinfo{
     width: 65%;
@@ -1297,7 +1297,7 @@ a:hover{
     width: 100%;
   }
   .mediasection .mediatiles .tilesimage {
-    width: 47%;
+    /* width: 47%; */
 }
 .mediasection .mediatiles .tilesinfo {
   width: 53%;
