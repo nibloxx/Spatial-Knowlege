@@ -196,7 +196,7 @@ onmouseout = function(event) {
   }
 
   function UnsafeComponent({ html }) {
-    return <div dangerouslySetInnerHTML={{ __html: html }} />;
+    return <div className="unsafe-html" dangerouslySetInnerHTML={{ __html: html }} />;
   }
 
 const concernedElement = document.querySelector(".navcontainer");
@@ -275,7 +275,7 @@ document.addEventListener("mousedown", (event) => {
 </ul>
 
 <ul className='eventslistul'>
-  <li className='mb-1'>
+  <li className=''>
   <h4>{menuContent}:</h4>
   <p className='eventslistulactive'>
   <UnsafeComponent html={menuContentDescription} />
@@ -290,8 +290,9 @@ document.addEventListener("mousedown", (event) => {
 <ul className='downloadreader'>
   <li>
     <div className='downloadLinks'><span>Space Reader</span></div>
-    <a href='https://play.google.com/store/apps/details?id=com.studioiraklisabekia.spacereader&hl=en' className='downloadmobile'>Download for mobile
-    </a>
+    {/* <a href='https://play.google.com/store/apps/details?id=com.studioiraklisabekia.spacereader&hl=en' className='downloadmobile'>Download for mobile
+    </a> */}
+    <p className='downloadmobile'>*Mobile application inactive</p>
   </li>
 </ul>
 </section>

@@ -226,7 +226,7 @@ margin: 4px 0 0px 0;
   color: #000000;
   font-weight: 300;
   font-style: italic;
-  margin-bottom: 20px;
+  margin-bottom: 7px;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .eventslistul li a span{
@@ -298,4 +298,7 @@ margin: 4px 0 0px 0;
 .downloadreader{
   display: none;
 }
+}
+.unsafe-html p {
+  margin-bottom: 0;
 }
