@@ -10,12 +10,14 @@ const EssayNote = () => {
   const [notes , setNotes] = useState([])
   const [noteid , setNoteId] = useState(params.id)
   const [noteContent , setNoteContent] = useState([])
+  const [loading, setLoading] = useState(false);
   useEffect(() =>{
     getNotes(noteid)
   }, []);
 
 
 const notedisplay =(trigger)  =>{
+    setLoading(true);
     if(trigger=="next"){
       const url2 = 'https://api.archive-of-spatial-knowledge.org/volumes/notedetailswithpagination?note_id='+noteid+'&trigger=next';
 
@@ -37,6 +39,9 @@ const notedisplay =(trigger)  =>{
          console.warn(result)
       })
       .catch(error=>console.error(`Error:${error}`))
+      .finally(() => {
+        setLoading(false);
+      });
       setNoteContent(' test next contnet ');
     }  else {
       const url2 = 'https://api.archive-of-spatial-knowledge.org/volumes/notedetailswithpagination?note_id='+noteid+'&trigger=pre';
@@ -58,12 +63,16 @@ const notedisplay =(trigger)  =>{
          console.warn(result)
       })
       .catch(error=>console.error(`Error:${error}`))
+      .finally(() => {
+        setLoading(false);
+      });
       setNoteContent(' test previous contnet ');
     }
 }
 
 
   const getNotes =(noteid)  =>{
+    setLoading(true);
     const url = 'https://api.archive-of-spatial-knowledge.org/volumes/notedetails?note_id='+noteid;
     console.log('start');
       axios.get(`${url}`)
@@ -76,6 +85,9 @@ const notedisplay =(trigger)  =>{
         console.warn(result)
      })
      .catch(error=>console.error(`Error:${error}`))
+     .finally(() => {
+        setLoading(false);
+      });
   }
 
   return (
@@ -96,6 +108,10 @@ const notedisplay =(trigger)  =>{
         </a>
         <div className='pageinfosectionly'>
           <div className='infosections'>
+          {loading ? (
+            <div className="loading"></div>
+            ) : (
+            <>
             <div className='topsection'>
               <div className='title'>
                 <p>{noteContent.projectTitle}   </p>
@@ -106,8 +122,10 @@ const notedisplay =(trigger)  =>{
                  <p> {noteContent.indexInProject}</p>
               </div>
             </div>
+             </>
+              )}
             <div div className='infosectionsection'>
-              <p className='contentview'>{noteContent.note_text}</p>
+            {loading ? <></> : <p className='contentview'>{noteContent.note_text}</p>}
              {notes.projectId !=0  ? <div className='bottomnextprev'>
              <a href='#' onClick={() => notedisplay('pre')} >  <div className='contentprev'>
                  <span>Previous</span>
@@ -118,12 +136,12 @@ const notedisplay =(trigger)  =>{
                 </div></a>
               </div> : null }
             </div>
-            <div div className='infosectionsection'>
+            {/* <div div className='infosectionsection'>
               <h5>Description:</h5>
               <p>{noteContent.description}.</p>
               <h5>Subject Tags:</h5>
               <p>{noteContent.subjectTags}. </p>
-            </div>
+            </div> */}
             <div div className='infosectionsection'>
               <div className='otherlayout'>
                 <div className='sectionslayout'>
