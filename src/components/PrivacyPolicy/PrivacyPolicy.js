@@ -238,7 +238,7 @@ const PrivacyPolicy = () => {
             </div>
           </div>
           {/* Modal End */}
-          <div className='showonlyinmobile'><img src="../../img/mobile-download-icon.svg" alt=""/>Download Space Reader</div>
+          <div className='showonlyinmobile'><img src="../../img/mobile-download-icon.svg" alt=""/>*Mobile application inactive</div>
     </div>
   );
 };

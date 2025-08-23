@@ -25,6 +25,6 @@
     display:  flex;
    }
    .App {
-    overflow: scroll;
+    overflow: auto;
 } 
 }

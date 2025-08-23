@@ -1320,7 +1320,7 @@ a:hover{
   padding: 1rem;
   font-weight: 400;
   font-size: 15px;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   background: #fff;
   letter-spacing: -0.01em;
   border: 0.5px solid #000000;
@@ -1334,9 +1334,9 @@ a:hover{
   padding-bottom: 2rem;
 }
 .maplocation-wrapper .maplocation:last-child{
-  border:medium none !important;
+  /* border:medium none !important;
   padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; */
 }
 .cmspages-wrapper .cmspagetitle{
   width: 100%;
