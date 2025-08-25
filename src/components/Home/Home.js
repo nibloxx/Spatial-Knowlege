@@ -8,9 +8,9 @@ const Home = () => {
         <div className='gridimgmask'>
         <Link to="/EssayView/Gagra, Displacement By Inheritance">
           <div className='overlayeffect'>
-          <img src='../../img/fr-fi.jpg' alt='' className='img-fluid'/>
-          <div class="overlay">
-            <div class="text">
+          <img src='../../img/fr-fi.jpg' alt='' className='img-fluid img-size'/>
+          <div className="overlay">
+            <div className="text">
               <div>
                 <h6>Gagra, Displacement By Inheritance</h6>
               </div>
@@ -28,9 +28,9 @@ const Home = () => {
         <div className='gridimgmask'>
         <Link to="/EssayView/A Village With A Single House">
         <div className='overlayeffect'>
-          <img src='../../img/sr-fi.jpg' alt='' className='img-fluid'/>
-          <div class="overlay">
-            <div class="text">
+          <img src='../../img/sr-fi.jpg' alt='' className='img-fluid img-size'/>
+          <div className="overlay">
+            <div className="text">
               <div>
                 <h6>A Village With A Single House</h6>
               </div>
@@ -47,9 +47,9 @@ const Home = () => {
         <div className='gridimgmask'>
         <Link to="/EssayView/Gali. Home, Across The River">
         <div className='overlayeffect'>
-        <img src='../../img/sr-si.jpg' alt='' className='img-fluid'/>
-        <div class="overlay">
-            <div class="text">
+        <img src='../../img/sr-si.jpg' alt='' className='img-fluid img-size'/>
+        <div className="overlay">
+            <div className="text">
               <div>
                 <h6>Gali. Home, Across The River</h6>
               </div>
@@ -62,15 +62,34 @@ const Home = () => {
         </Link>
           <p className='verticaltext'>42°37'40.8"N 41°44'11.9"E</p>
         </div>
+
+        <div className='gridimgmask d-none d-md-flex'>
+          <Link to="/EssayView/Between Sokhumi and Tbilisi">
+            <div className='overlayeffect'>
+              <img src='../../img/fir-fi.jpg' alt='' className='img-fluid img-size' />
+              <div class="overlay">
+                <div class="text">
+                  <div>
+                    <h6>Between Sokhumi and Tbilisi</h6>
+                  </div>
+                  <div>
+                    <p>Elene Gogokhia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <p className='verticaltext'>43°09'14.3"N 40°19'57.9"E</p>
+        </div>
       </div>
 
       <div className='homeimagesgrid thirdlist'>
         <div className='gridimgmask'>
         <Link to="/EssayView/Achigvara And Sokhumi. The Pre-War City And The Way Out Of It">
         <div className='overlayeffect'>
-          <img src='../../img/tr-fi.jpg' alt='' className='img-fluid'/>
-          <div class="overlay">
-            <div class="text">
+          <img src='../../img/tr-fi.jpg' alt='' className='img-fluid img-size'/>
+          <div className="overlay">
+            <div className="text">
               <div>
                 <h6>Achigvara And Sokhumi. The Pre-War City And The Way Out Of It</h6>
               </div>
@@ -86,9 +105,9 @@ const Home = () => {
         <div className='gridimgmask'>
         <Link to="/EssayView/Kheiti, Tskhinvali And The Tserovani Settlement For The Displaced">
         <div className='overlayeffect'>
-          <img src='../../img/tr-si.jpg' alt='' className='img-fluid'/>
-          <div class="overlay">
-            <div class="text">
+          <img src='../../img/tr-si.jpg' alt='' className='img-fluid img-size'/>
+          <div className="overlay">
+            <div className="text">
               <div>
                 <h6>Kheiti, Tskhinvali And The Tserovani Settlement For The Displaced</h6>
               </div>
@@ -107,9 +126,9 @@ const Home = () => {
         <div className='gridimgmask'>
         <Link to="/EssayView/A Stone In The Sea, Pshapi">
         <div className='overlayeffect'>
-          <img src='../../img/fur-fi.jpg' alt='' className='img-fluid'/>
-          <div class="overlay">
-            <div class="text">
+          <img src='../../img/fur-fi.jpg' alt='' className='img-fluid img-size'/>
+          <div className="overlay">
+            <div className="text">
               <div>
                 <h6>A Stone In The Sea, Pshapi</h6>
               </div>
@@ -126,9 +145,9 @@ const Home = () => {
         <div className='gridimgmask'>
         <Link to="/EssayView/Harvests In Kurta">
         <div className='overlayeffect'>
-          <img src='../../img/fur-si.jpg' alt='' className='img-fluid'/>
-          <div class="overlay">
-            <div class="text">
+          <img src='../../img/fur-si.jpg' alt='' className='img-fluid img-size'/>
+          <div className="overlay">
+            <div className="text">
               <div>
                 <h6>Harvests In Kurta</h6>
               </div>
@@ -145,9 +164,9 @@ const Home = () => {
         <div className='gridimgmask'>
         <Link to="/EssayView/Akhalgori, An Introduction To My Story">
         <div className='overlayeffect'>
-          <img src='../../img/fir-si.jpg' alt='' className='img-fluid'/>
-          <div class="overlay">
-            <div class="text">
+          <img src='../../img/fir-si.jpg' alt='' className='img-fluid img-size'/>
+          <div className="overlay">
+            <div className="text">
               <div>
                 <h6>Akhalgori, An Introduction To My Story</h6>
               </div>
@@ -162,7 +181,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='homeimagesgrid fifthlist'>
+      <div className='homeimagesgrid fifthlist d-flex d-md-none'>
         <div className='gridimgmask'>
           <Link to="/EssayView/Between Sokhumi and Tbilisi">
             <div className='overlayeffect'>
