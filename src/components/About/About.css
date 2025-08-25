@@ -11,6 +11,6 @@
 .footerinfo ul li {
   font-size: 15px;
 }
-.pagelayouts{
+.pagelayouts{ 
   display:  flex;
  }
