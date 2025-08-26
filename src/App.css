@@ -1201,51 +1201,51 @@ a:hover{
 
 
 /*responsive css*/
-@media (min-width: 1440px) and (max-width: 1600px) {
+@media (min-width: 1440px) and (max-width: 1550px) {
   .img-size{
     height: 200px !important;
   }
   .home-wrapper {
     width: 98% !important;}
-  .menu-wrapper {left: 60px !important;}
+  .home-menu-wrapper {left: 60px !important;}
   .secoundlist .gridimgmask:first-child {
     top: 0rem !important;
-    right: -2rem !important;
+    right: -6rem !important;
   }
   .secoundlist .gridimgmask:nth-child(2) {
     top: -1.6rem !important;
-    left: -12.7rem !important;
+    left: -7.7rem !important;
   }
   .secoundlist .gridimgmask:last-child {
-    right: 3rem !important;
+    right: 0rem !important;
     bottom: 1rem !important;
   }
   .thirdlist .gridimgmask:first-child {
     top: 2.5rem !important;
-    left: -4rem !important;
+    left: -2rem !important;
   }
   .thirdlist .gridimgmask:last-child {
-    top: 22rem !important;
-    left: -9rem !important;
+    top: 16rem !important;
+    left: -8rem !important;
   }
   .fourthlist .gridimgmask:first-child {
     top: -1rem !important;
-    left: -3.7rem !important;
+    left: -2rem !important;
   }
   .fourthlist .gridimgmask:nth-child(2) {
-    top: -3rem !important;
-    left: -19rem !important;
+    top: 0rem !important;
+    left: -15rem !important;
   }
   .fourthlist .gridimgmask:last-child {
-    top: -0.5rem !important;
-    left: -7.1rem !important;
+    top: 2rem !important;
+    left: -4.1rem !important;
   }
 }
 @media (min-width: 1281px) and (max-width: 1439px) {
-  .navbarmenu-wrapper {
+  .home-navbarmenu-wrapper {
     padding: 15px !important;
   }
-  .logoimage {
+  .home-logoimage {
     margin: 0 0 15px 0 !important;
   }
    .img-size{
@@ -1253,7 +1253,7 @@ a:hover{
   }
   .home-wrapper {
     width: 98% !important;}
-  .menu-wrapper {left: 50px !important;}
+  .home-menu-wrapper {left: 50px !important;}
   .secoundlist .gridimgmask:first-child {
     top: 7rem !important;
     right: -1.5rem !important;
@@ -1301,10 +1301,10 @@ a:hover{
   .pageinfosectionlyaccordion .customaccordion-wrapper .accordion{
     padding-bottom: 3rem;
   }
-  .navbarmenu-wrapper {
+  .home-navbarmenu-wrapper {
     padding: 15px !important;
   }
-  .logoimage {
+  .home-logoimage {
     margin: 0 0 15px 0 !important;
   }
   .img-size{
@@ -1313,17 +1313,17 @@ a:hover{
   }
   .home-wrapper {
     width: 98% !important;}
-  .menu-wrapper {left: 155px !important;}
+  .home-menu-wrapper {left: 155px !important;}
   .secoundlist .gridimgmask:first-child {
-    top: 3.8rem !important;
-    right: -2rem !important;
+    top: 7.8rem !important;
+    right: -6rem !important;
   }
   .secoundlist .gridimgmask:nth-child(2) {
-    top: 1.4rem !important;
-    left: -6.7rem !important;
+    top: 3.4rem !important;
+    left: -2.7rem !important;
   }
   .secoundlist .gridimgmask:last-child {
-    right: -2rem !important;
+    right: -6rem !important;
     bottom: 1rem !important;
   }
   .thirdlist .gridimgmask:first-child {
@@ -1331,20 +1331,20 @@ a:hover{
     left: 0rem !important;
   }
   .thirdlist .gridimgmask:last-child {
-    top: 14.8rem !important;
-    left: -4.3rem !important;
+    top: 9.8rem !important;
+    left: -3.3rem !important;
   }
   .fourthlist .gridimgmask:first-child {
     top: -1rem !important;
     left: -3.7rem !important;
   }
   .fourthlist .gridimgmask:nth-child(2) {
-    top: -3rem !important;
+    top: 2rem !important;
     left: -12rem !important;
   }
   .fourthlist .gridimgmask:last-child {
-    top: -0.5rem !important;
-    left: -7.1rem !important;
+    top: 0.5rem !important;
+    left: -3.1rem !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1403,10 +1403,10 @@ a:hover{
 .fixmenuoptionsections ul li h4{
   font-size: 12px;
 }
-  .navbarmenu-wrapper {
+  .home-navbarmenu-wrapper {
     padding: 15px !important;
   }
-  .logoimage {
+  .home-logoimage {
     margin: 0 0 15px 0 !important;
   }
   .img-size{
@@ -1418,7 +1418,7 @@ a:hover{
   }
   .home-wrapper {
     width: 98% !important;}
-  .menu-wrapper {left: 170px !important;}
+  .home-menu-wrapper {left: 170px !important;}
   .secoundlist .gridimgmask:first-child {
     top: 3.8rem !important;
     right: -2rem !important;
