@@ -43,6 +43,15 @@ const Navbar = () => {
   const [menuContent, setmenuContent] = useState([]);
   const [menuContentUrl, setmenuContentUrl] = useState([]);
   const [menuContentDescription, setmenuContentDescription] = useState([]);
+  const [isHomePage, setIsHomePage] = useState(false);
+  useEffect(() => {
+    const path = window.location.pathname;
+    if (path === "/" || path === "/Home") {
+      setIsHomePage(true);
+    } else {
+      setIsHomePage(false);
+    }
+  }, [window.location.pathname]);
   useEffect(() =>{
     showNavbar(); //  this will click on every click
       //optionsList
@@ -209,10 +218,10 @@ document.addEventListener("mousedown", (event) => {
 
   return (
 
-    <div className='menu-wrapper'>
-    <section className='navbarmenu-wrapper'>
+    <div className={`menu-wrapper ${isHomePage ? "home-menu-wrapper" : ""}`}>
+    <section className={`navbarmenu-wrapper ${isHomePage ? "home-navbarmenu-wrapper" : ""}`}>
       <div className="wrapper">
-      <div className='logoimage'>
+      <div className={`logoimage ${isHomePage ? "home-logoimage" : ""}`}>
         <Link to="/"><img src="../../img/logo.svg" alt="logo Img" /></Link>
       </div>
       <div className="navcontainer">
