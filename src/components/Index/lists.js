@@ -35,8 +35,9 @@ import moment from 'moment';
       console.log(project);
      return ( <div className='mediatiles'>
      <div className='tilesimage'>
-      {/*<Link to={'/EssayView/'+project.projectTitle} onClick={()=>navigate('/EssayView/'+project.projectTitle)}><img src={project.image} alt='index image' width={'80%'} /></Link>*/}
-      <img src={project.image} alt='index image' width={'80%'} data-toggle="modal" data-target="#exampleModal2"/>
+      <Link to={'/EssayView/'+project.projectTitle} onClick={()=>navigate('/EssayView/'+project.projectTitle)}>
+        <img src={project.image} alt='index image' width={'80%'} data-toggle="modal" data-target="#exampleModal2"/>
+      </Link>
      </div>
      <div className='tilesinfo'>
       <Link to={'/EssayView/'+project.projectTitle} onClick={()=>navigate('/EssayView/'+project.projectTitle)}> 
