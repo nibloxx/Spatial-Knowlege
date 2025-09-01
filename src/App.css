@@ -1252,21 +1252,24 @@ a:hover{
     margin: 0 0 15px 0 !important;
   }
    .img-size{
-    height: 150px !important;
+    height: 160px !important;
+  }
+  .verticaltext {
+    font-size: 12px;
   }
   .home-wrapper {
     width: 98% !important;}
   .home-menu-wrapper {left: 50px !important;}
   .secoundlist .gridimgmask:first-child {
     top: 7rem !important;
-    right: -1.5rem !important;
+    right: -2.5rem !important;
   }
   .secoundlist .gridimgmask:nth-child(2) {
     top: -7px !important;
     left: -9.7rem !important;
   }
   .secoundlist .gridimgmask:last-child {
-    right: 2rem !important;
+    right: -2.5rem !important;
     bottom: 5px !important;
   }
   .thirdlist .gridimgmask:first-child {
@@ -1275,7 +1278,7 @@ a:hover{
   }
   .thirdlist .gridimgmask:last-child {
     top: 18rem !important;
-    left: -13rem !important;
+    left: -9rem !important;
   }
   .fourthlist .gridimgmask:first-child {
     top: 2rem !important;
@@ -1290,7 +1293,7 @@ a:hover{
     left: -10rem !important;
   }
 }
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   .mediasection .mediatiles .tilesimage{
     /* width: 28%; */
   }
@@ -1311,46 +1314,52 @@ a:hover{
     margin: 0 0 15px 0 !important;
   }
   .img-size{
-    height: 100px !important;
-    width: 100px !important;
+    height: 145px !important;
+    width: 145px !important;
+  }
+  .verticaltext {
+    font-size: 10px;
+  }
+  .firstlist .gridimgmask {
+    left: 1rem !important;
   }
   .home-wrapper {
     width: 98% !important;}
-  .home-menu-wrapper {left: 155px !important;}
+  .home-menu-wrapper {left: 175px !important;}
   .secoundlist .gridimgmask:first-child {
-    top: 7.8rem !important;
-    right: -6rem !important;
+    top: 2.8rem !important;
+    right: -2rem !important;
   }
   .secoundlist .gridimgmask:nth-child(2) {
     top: 3.4rem !important;
-    left: -2.7rem !important;
+    left: -8.7rem !important;
   }
   .secoundlist .gridimgmask:last-child {
-    right: -6rem !important;
+    right: -2rem !important;
     bottom: 1rem !important;
   }
   .thirdlist .gridimgmask:first-child {
     top: 2.5rem !important;
-    left: 0rem !important;
+    left: -1rem !important;
   }
   .thirdlist .gridimgmask:last-child {
-    top: 9.8rem !important;
-    left: -3.3rem !important;
+    top: 14.8rem !important;
+    left: -4.3rem !important;
   }
   .fourthlist .gridimgmask:first-child {
     top: -1rem !important;
     left: -3.7rem !important;
   }
   .fourthlist .gridimgmask:nth-child(2) {
-    top: 2rem !important;
-    left: -12rem !important;
+    top: 0rem !important;
+    left: -10rem !important;
   }
   .fourthlist .gridimgmask:last-child {
     top: 0.5rem !important;
     left: -3.1rem !important;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .pagelayouts{
     width: 100%;
   }
