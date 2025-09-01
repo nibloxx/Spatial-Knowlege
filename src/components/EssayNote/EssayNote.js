@@ -122,10 +122,8 @@ const notedisplay =(trigger)  =>{
                  <p> {noteContent.indexInProject}</p>
               </div>
             </div>
-             </>
-              )}
             <div div className='infosectionsection'>
-            {loading ? <></> : <p className='contentview'>{noteContent.note_text}</p>}
+             <p className='contentview'>{noteContent.note_text}</p>
              {notes.projectId !=0  ? <div className='bottomnextprev'>
              <a href='#' onClick={() => notedisplay('pre')} >  <div className='contentprev'>
                  <span>Previous</span>
@@ -162,6 +160,8 @@ const notedisplay =(trigger)  =>{
                 </div>
               </div>
             </div>
+             </>
+              )}
             <div div className='infosectionsection'>
               <div className='mapviewlink'>
                 <Link to={"/Map?nodeid="+noteContent.id}>View on Map</Link>

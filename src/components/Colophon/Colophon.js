@@ -84,7 +84,9 @@ const Colophon = () => {
           </ul>
           <ul className='menuimages'>
             <li>
-              <img src="../img/Gali1.jpg" alt='Gali img' />
+              <Link to="/EssayView/Home%20Across%20The%20River">
+                <img src="../img/Gali1.jpg" alt='Gali img' />
+              </Link>
             </li>
           </ul>
         </div>

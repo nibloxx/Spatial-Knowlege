@@ -119,7 +119,7 @@ const getEssay =()  =>{
         return (
           <a onClick={()=>navigate('/EssayNote/'+note.id)}  className="wholelink"><div className='maplocation'>
             <div className='locationpin'>
-            <Link to={"/EssayNote/"+note.id}><img src="../img/mapfillpin.png" alt=''/></Link>
+            <Link to={"/EssayNote/"+note.id}><img src="../img/mapfillpin.png" style={{ width: "15px", height: "21px" }} alt=''/></Link>
             </div>
             <div className='locationdetails'>
               <p><Link to={"/EssayNote/"+note.id}>{note.noteText}</Link></p>

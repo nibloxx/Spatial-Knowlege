@@ -301,7 +301,7 @@ document.addEventListener("mousedown", (event) => {
     <div className='downloadLinks'><span>Space Reader</span></div>
     {/* <a href='https://play.google.com/store/apps/details?id=com.studioiraklisabekia.spacereader&hl=en' className='downloadmobile'>Download for mobile
     </a> */}
-    <p className='downloadmobile'>*Mobile application inactive</p>
+    <p className='downloadmobile mb-0'>*Mobile application inactive</p>
   </li>
 </ul>
 </section>
