@@ -36,7 +36,7 @@ const About = () => {
   }
 
   return (
-    <div className='cmspages-wrapper'>
+    <div className='cmspages-wrapper pb-29'>
       <h2 className='cmspagetitle'><span>{title}</span></h2>
       <div className='towcoloumlayout'>
         <div className='pageinfosection'>

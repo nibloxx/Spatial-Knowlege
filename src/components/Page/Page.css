@@ -14,3 +14,6 @@
 .pagelayouts{
   display:  flex;
  }
+ .pb-29 {
+  padding-bottom: 29px !important;
+ }
