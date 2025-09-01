@@ -71,6 +71,7 @@ const About = () => {
         </div>
       </div>
       </div>
+      <div className='showonlyinmobile'><img src="../../img/mobile-download-icon.svg" alt=""/>*Mobile application inactive</div>
     </div>
   );
 };
