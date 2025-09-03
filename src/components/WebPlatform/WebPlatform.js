@@ -22,7 +22,7 @@ const WebPlatform = () => {
         <div className='fixmenuoptionsections'>
         <ul>
           <li>
-            <h4>Current Volume</h4>
+            <h4>Current Volume <img src='/img/right-white-arrow.svg' height='12' width='12' /></h4>
             <p>The first volume of the archive focuses on  Russian-occupied territories of Georgia, and the narratives erased from the spaces during the ongoing aggression, spanning three decades.</p>
           </li>
         </ul>

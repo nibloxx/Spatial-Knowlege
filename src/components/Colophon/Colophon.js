@@ -69,7 +69,7 @@ const Colophon = () => {
         <div className='sectionRight'>
             <ul className='menuinfonly'>
             <li>
-              <h4><Link to="/index">Current Volume</Link></h4>
+              <h4><Link to="/index">Current Volume <img src='/img/right-white-arrow.svg' height='12' width='12' /></Link></h4>
               <p>The first volume of the archive focuses on  Russian-occupied territories of Georgia, and the narratives erased from the spaces during the ongoing aggression, spanning three decades.</p>
             </li>
           </ul>
@@ -77,8 +77,8 @@ const Colophon = () => {
         <div className='sectionRight'>
             <ul>
             <li>
-              <h4><Link to="/EssayView/Home%20Across%20The%20River">Featured Essay</Link></h4>
-              <h3><Link to="/EssayView/Home%20Across%20The%20River">Gali. Home Across The River</Link></h3>
+              <h4><Link to="/EssayView/Home%20Across%20The%20River">Featured Essay <img src='/img/right-white-arrow.svg' height='12' width='12' /></Link></h4>
+              <h3><Link to="/EssayView/Home%20Across%20The%20River">Home Across The River</Link></h3>
               <p>by Lela Jobava</p>
             </li>
           </ul>

@@ -167,7 +167,7 @@ a:hover{
   top: 1px;
   margin-bottom: 12px;
 }
-.fixmenuoptionsections ul li h4::after{
+/* .fixmenuoptionsections ul li h4::after{
   content: '';
   background: url('../public/img/right-white-arrow.svg') no-repeat; 
   width: 12px;
@@ -175,7 +175,13 @@ a:hover{
   position: absolute;
   top: 7.2px;
   right: 5px;
-}
+} */
+ .fixmenuoptionsections ul li h4 a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; }
 
 .fixmenuoptionsections ul li h3{
   font-weight: 700;
