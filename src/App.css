@@ -804,6 +804,7 @@ a:hover{
   /* top: -3px; */
 }
 .maplocation .locationdetails{
+  overflow: hidden;
   width: 90%;
 }
 .maplocation .locationdetails p{
@@ -815,7 +816,7 @@ a:hover{
   color: #000000;
   font-family: 'Plus Jakarta Sans', sans-serif;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   white-space: nowrap;
   text-overflow: ellipsis;
 }
