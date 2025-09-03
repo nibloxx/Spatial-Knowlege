@@ -1377,6 +1377,11 @@ a:hover{
     .firstlist .gridimgmask  {
       opacity: 0!important;
   }
+  .downloadLinks{
+    width: auto !important;
+    height: auto !important;
+    padding-bottom: 3px !important;
+  }
 }
 @media (min-width: 800px) and (max-width: 1023px) {
     .firstlist .gridimgmask {
@@ -1387,9 +1392,9 @@ a:hover{
   .pagelayouts{
     width: 100%;
   }
-  .menu-wrapper .navbarmenu-wrapper{
+  /* .menu-wrapper .navbarmenu-wrapper{
     width: 198px;
-  }
+  } */
   .cmspages-wrapper{
     width: 77% !important;
   }
