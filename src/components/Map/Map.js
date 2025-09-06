@@ -280,7 +280,7 @@ const options = {
 const Map = () => {
 
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyAelbsli4CmLIYTjRegPFtc4UkzZXO6odo',
+    googleMapsApiKey: 'AIzaSyBYuKTf-FFgWx-kJzgmTdu5s1D-4C9EO2k',
     libraries,
   });
   const [markers, setMarkers] = React.useState([]);
