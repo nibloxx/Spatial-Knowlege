@@ -256,6 +256,12 @@ margin: 4px 0 0px 0;
 .downloadreader{
   padding: 18px 15px 15px 15px !important;
   margin: 0 0 12px 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.downloadreader li{
+  max-width: 158px;
 }
 
 /*responsive css*/

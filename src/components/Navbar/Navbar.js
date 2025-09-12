@@ -218,10 +218,10 @@ document.addEventListener("mousedown", (event) => {
 
   return (
 
-    <div className={`menu-wrapper ${isHomePage ? "home-menu-wrapper" : ""}`}>
-    <section className={`navbarmenu-wrapper ${isHomePage ? "home-navbarmenu-wrapper" : ""}`}>
+    <div className={`menu-wrapper ${isHomePage ? "" : ""}`}>
+    <section className={`navbarmenu-wrapper ${isHomePage ? "" : ""}`}>
       <div className="wrapper">
-      <div className={`logoimage ${isHomePage ? "home-logoimage" : ""}`}>
+      <div className={`logoimage ${isHomePage ? "" : ""}`}>
         <Link to="/"><img src="../../img/logo.svg" alt="logo Img" /></Link>
       </div>
       <div className="navcontainer">
