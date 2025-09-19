@@ -811,12 +811,12 @@ a:hover{
   margin-bottom: 5px !important;
   font-weight: 500;
   font-size: 17px;
-  line-height: 19.21px;
+  line-height: 25px;
   letter-spacing: -0.01em;
   color: #000000;
   font-family: 'Plus Jakarta Sans', sans-serif;
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
